@@ -1,0 +1,29 @@
+.icon-plus{
+    height: 2.5rem;
+    width: 2.5rem;
+    fill: #001219;
+    transition: all .3s;
+
+
+}
+
+
+.icon-minus{
+    height: 2.5rem;
+    width: 2.5rem;
+    fill: #001219;
+    display: none;
+    transition: all .3s;
+}
+.show-text .icon-minus{
+    display: inline;
+}
+
+.show-text .icon-plus{
+    display: none;
+}
+.btn{
+    border: transparent;
+    background-color: transparent;
+}
+

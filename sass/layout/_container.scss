@@ -1,0 +1,45 @@
+.container{
+    // background-color: red;
+    height: 100%;
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.question-box{
+    & > * {
+        margin: 5rem 0;
+    }
+}
+
+.question-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+
+}
+
+.show-text{
+    transition: all .3s;
+}
+
+
+.question{
+    background-color: #fad2e1;
+    padding: 2rem;
+
+}
+.question-text{
+    height:0;
+    overflow: hidden;
+
+
+}
+.show-text .question-text{
+    height: 100%;
+    overflow: visible;
+}
